@@ -8,9 +8,9 @@ const template = {
 
 export default template;
 
-const Story = args => <Navbar {...args} />;
+const Story = (args: any) => <Navbar {...args} />;
 
-export const Default = Story.bind({});
+export const Default: any = Story.bind({});
 
 const Props = {};
 
